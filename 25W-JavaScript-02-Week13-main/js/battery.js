@@ -14,7 +14,7 @@ document.body.appendChild(roboImage); // Appending the image to the body of the 
 function updateBatteryStatus(battery) {
     console.log(battery);
 
-    // Update the charging status
+    //update
     chargeStatus.textContent = battery.charging ? "Charging..." : "Discharging...";
 
     // Calculate battery level percentage
